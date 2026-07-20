@@ -1,16 +1,12 @@
-#!/usr/bin/env python3
 """
 TASK MANAGER CLI - Herramienta de gestión de tareas con autenticación remota.
 
-Este script sigue los principios KISS (Keep It Simple) y de responsabilidad única [3, 4].
-Uso: python3 task_manager.py -u <usuario> -p <contraseña>
 """
 
 import requests
 import sys
 import argparse
 
-# --- LÓGICA DE NEGOCIO (Responsabilidad Única) ---
 
 # Lista en memoria para almacenar las tareas durante la ejecución [5]
 tasks = []
