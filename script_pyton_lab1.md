@@ -1,7 +1,6 @@
 
 # TASK MANAGER CLI
 
-Herramienta de gestión de tareas con autenticación remota usando **httpbin.org**.
 
 ## Características
 
